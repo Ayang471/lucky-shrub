@@ -1,0 +1,80 @@
+.App .container{
+    align-items: center;
+    border-bottom: 3px solid #567066;
+}
+
+.navbar-nav a{
+    font-size:22px;
+    margin: auto 6px;
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .nav-end ul{
+    list-style: none;
+}
+
+.navbar .nav-end ul li{
+    display: inline;
+}
+
+.navbar .nav-end ul li img{
+    width: 25px;
+    margin: 0px 4px
+}
+
+
+{/*.navbar{
+    width: 100vw;
+}
+
+.App .container{
+    align-items: center;
+    border-bottom: 3px solid #567066;
+}
+
+.App nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.App nav img{
+    width: 40px;
+    margin: 8px 200px 8px 8px;
+}
+
+.App nav ul li{
+    display: inline;
+    text-align: center;
+}
+
+.App nav ul li a{
+    color:#045A04;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App nav ul li a:hover{
+    text-decoration: underline;
+     color:#045A04;
+}
+
+.App nav .nav-end{
+    margin: 8px 8px 8px 100px;
+    align-items: end;
+}
+
+.App nav .nav-end img{
+    width: 25px;
+    margin: 5px;
+}
+
+.App nav .nav-end ul{
+    margin-bottom: 0;
+}
+
+.App nav .nav-end li{
+    padding: 0;
+}
+*/}
