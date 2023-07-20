@@ -1,0 +1,63 @@
+.book-oasis .row{
+ margin: 8% 12%;
+}
+
+
+.book-oasis .row .col:nth-child(2){
+    margin-top: 2%;
+    padding: 6%;
+}
+
+.book-oasis h1{
+      color: #055A05;
+      font-weight: 600;
+}
+
+.book-oasis p{
+    font-size: 18px;
+    color: #6D6D6D;
+    line-height: 26px;
+}
+
+.book-oasis button{
+    padding: 12px 38px;
+    margin-top: 14px;
+    background-color: #86AA96;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .book-oasis {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  button {
+    margin-top: 20px;
+
+  }
+}
