@@ -1,11 +1,16 @@
 import './App.css';
+import Homepage from './Homepage'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './Navbar'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+      </Routes>
     </div>
   );
 }
