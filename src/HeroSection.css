@@ -1,0 +1,84 @@
+.HeroSection{
+    margin: 10% 12% 0 12%;
+}
+
+.HeroSection .texts h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #055A05;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.HeroSection .texts  p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 6% 0;
+    color: rgb(102, 101, 101);
+}
+
+.HeroSection button{
+    padding: 12px 24px;
+    background-color: #fff;
+    border: 1px solid #055A05;
+    border-radius: 12px;
+     transition: all 0.3s ease-in-out;
+}
+
+.HeroSection button:hover{
+    cursor: pointer;
+    transform: translateX(6px);
+    background-color: #86AA96;
+}
+
+.HeroSection .arrowRight{
+    margin-left: 6px;
+      transition: all 0.3s ease-in-out;
+}
+
+.HeroSection .arrowRight:hover{
+transform: translateX(6px);
+}
+
+.HeroSection img{
+    width: 450px;
+    display: block;
+    position: relative;
+    top: -85px;
+    left: 55px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    animation: jump 1.2s infinite;
+}
+
+.HeroSection .border{
+    height: 120px;
+    width: 600px;
+   position: relative;
+   top: -180px;
+   right: -50px;
+   background-color: #86AA96;
+    border-radius: 50px 0 0 50px;
+    border-width: 10px;
+    box-shadow: inset ;
+}
+
+.HeroSection .border:hover{
+       background-color: #86AA96;
+}
+
+
+
+@keyframes jump {
+  0% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+
