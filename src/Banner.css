@@ -1,0 +1,20 @@
+.Banner{
+    margin: 0% 12%;
+    background-color: #86AA96;
+    padding:75px;
+    border-radius: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Banner h1 i{
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Banner h1 {
+    font-size: 30px;
+    color: #055A05;
+    font-weight: bold;
+}
