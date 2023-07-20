@@ -1,0 +1,68 @@
+.plants-section{
+    text-align: center;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.plants-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plants-section .col {
+  flex: 1 1 25%;
+  padding: 0 16px;
+  margin: 0;
+}
+
+.plants-section img {
+  width: 80%;
+  height: auto;
+}
+
+.plants-section h1{
+text-align: center;
+font-size: 38px;
+font-weight: 600;
+margin: 8%;
+color: #212121;
+}
+
+.plants-section p{
+   text-align: center;
+   margin: 8%;
+}
+
+.plants-section .arrowRight{
+  margin-left: 4%;
+  width: 15px;
+}
+
+.plants-section p:hover{
+    text-decoration: underline;
+}
+
+.plants-section button{
+    border: none;
+    border-radius: 12px;
+    background-color: #86AA96;
+    color: #fff;
+    padding: 14px 34px;
+    margin-top: 4%;
+}
+
+.plants-section button:hover{
+background-color: rgb(134, 170, 150,0.9);
+}
+
+
+@media screen and (max-width: 768px){
+  .plants-section img {
+  width: 30%;
+  height: auto;
+}
+.plants-section h1{
+font-size: 34px;
+}
+
+}
