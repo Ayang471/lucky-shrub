@@ -1,11 +1,11 @@
 .ExploreMoreSection{
-   background-color: #86AA96; 
-   padding: 4% 10%;
+background-image: radial-gradient(#86AA96, #bdd8c9, transparent);
+   padding: 5% 10%;
 }
 
 .ExploreMoreSection h1{
     text-align: center;
-    color: #fff;
+    color: #333;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 38px;
     font-weight: 600;
@@ -24,7 +24,7 @@
 
 .ExploreMoreSection p{  
     text-align: center;
-    color: #86AA96;
+    color: #6a6969;
     transition: all 0.3ms ease-in-out;
 }
 

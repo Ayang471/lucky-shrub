@@ -1,20 +1,45 @@
+.plants{
+    position: relative;
+    top: -100px;
+}
+
 .Banner{
-    margin: 0% 12%;
-    background-color: #86AA96;
-    padding:75px;
+    margin: 0% 10%;
+    background: linear-gradient(to top, #86AA96 0%, white 100%);
+    padding:65px;
     border-radius: 26px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.Banner .text{
+    text-align: center;
+}
+
 .Banner h1 i{
     font-size: 34px;
-    color: #fff;
+    color: #055A05;
     font-weight: bold;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 .Banner h1 {
-    font-size: 30px;
-    color: #055A05;
+    font-size: 32px;
+    color: #ffffff;
     font-weight: bold;
+}
+
+.Banner h1 span{
+     font-size: 32px;
+        text-shadow: 1px 1px 8px #055A05;
+}
+
+.plants img{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    animation: jump 1.2s infinite;
 }
