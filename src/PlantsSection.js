@@ -7,7 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 function PlantsSection() {
     return (
         <div className='plants-section'>
-            <h1>FIND PLANTS YOU'LL LOVE</h1>
+            <h1>Find plants you'll love</h1>
             <div className='row' >
                 {plantList.map((products, index) => (
                     <div className='col' key={index}>
