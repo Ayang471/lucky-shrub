@@ -1,0 +1,36 @@
+.carousel .shapes{
+  height: 110px;
+  width: 100vw;
+  background-color: #ffffff;
+  border-radius: 50%; 
+  position:relative;
+  top: 50px;
+  z-index: 1;
+}
+
+.carousel .bottom-shapes{
+   height: 110px;
+  width: 100vw;
+  background-color: #ffffff;
+  border-radius: 50%; 
+  position:relative;
+  top: -50px;
+  bottom: -50px;
+}
+
+.carousel-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel .list{
+  margin: 0 15px;
+  overflow: hidden;
+}
+
+.carousel img{
+  width: 450px;
+  height:400px;
+}
