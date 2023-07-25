@@ -1,13 +1,47 @@
-.App .container{
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    right: 0;
+    display: flex;
     align-items: center;
-    border-bottom: 3px solid #567066;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(55, 161, 55, 0.3) 30.46%, rgba(5, 90, 5, 0.0) 100%);
+    transition:  all 0.50s ease;
+}
+
+.navbar nav .container .navbar-brand{
+    margin-left:25px;
+}
+
+
+.navbar-nav{
+    display: flex;
 }
 
 .navbar-nav a{
-    font-size:22px;
-    margin: auto 6px;
+    font-size:24px;
+    margin: auto 25px;
     text-align:center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:  all 0.50s ease;
+    z-index: 1;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link:hover{
+   color: rgb(5,90,5,0.8);
+}
+
+
+.navbar .nav-link.active{
+    color:#055A05;
 }
 
 .navbar .nav-end ul{
@@ -22,59 +56,3 @@
     width: 25px;
     margin: 0px 4px
 }
-
-
-{/*.navbar{
-    width: 100vw;
-}
-
-.App .container{
-    align-items: center;
-    border-bottom: 3px solid #567066;
-}
-
-.App nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.App nav img{
-    width: 40px;
-    margin: 8px 200px 8px 8px;
-}
-
-.App nav ul li{
-    display: inline;
-    text-align: center;
-}
-
-.App nav ul li a{
-    color:#045A04;
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.App nav ul li a:hover{
-    text-decoration: underline;
-     color:#045A04;
-}
-
-.App nav .nav-end{
-    margin: 8px 8px 8px 100px;
-    align-items: end;
-}
-
-.App nav .nav-end img{
-    width: 25px;
-    margin: 5px;
-}
-
-.App nav .nav-end ul{
-    margin-bottom: 0;
-}
-
-.App nav .nav-end li{
-    padding: 0;
-}
-*/}
