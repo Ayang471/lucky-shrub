@@ -1,52 +1,84 @@
-.HeroSection{
-    margin: 10% 12% 0 12%;
+.HeroSection .texts {
+  text-align: center;
+  margin: 14% 16% 0% 16%;
 }
 
 .HeroSection .texts h1{
-    font-size: 38px;
+    font-size: 42px;
     font-weight: bold;
-    color: #055A05;
-    margin-top: 10%;
+    color: #333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    margin: 4% auto;
+    letter-spacing: 1px;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
 
+  @keyframes typing {
+    from {width: 0} to {width: 100%}
+  }
 
-.HeroSection .texts  p{
+  {/*@keyframes blink-caret{
+    from, to {border-color:transparent}
+    50%{border-color:white}
+  }*/}
+
+.HeroSection .texts p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 6% 0;
     color: rgb(102, 101, 101);
 }
 
 .HeroSection button{
-    padding: 12px 24px;
+    padding: 12px 34px;
     background-color: #fff;
     border: 1px solid #055A05;
     border-radius: 12px;
-     transition: all 0.3s ease-in-out;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 8px;
+    position: relative;
+    transition: .3s ease-in;
+    z-index: 1;
 }
+
+.HeroSection button::before,
+.HeroSection button::after{
+  position: absolute;
+  content: "";
+  z-index:-1;
+}
+
 
 .HeroSection button:hover{
-    cursor: pointer;
-    transform: translateX(6px);
-    background-color: #86AA96;
+ box-shadow: inset -10.5em 0 0 0 #86AA96, inset 10.5em 0 0 0 #86AA96;
+ color: #fff;
 }
 
+
+{/*.HeroSection button:hover{
+    cursor: pointer;
+    background-color: #86AA96;
+}
+*/}
 .HeroSection .arrowRight{
     margin-left: 6px;
-      transition: all 0.3s ease-in-out;
+     transition: .3s ease-in;
 }
 
 .HeroSection .arrowRight:hover{
-transform: translateX(6px);
+   transform: translateX(6px);
 }
 
 .HeroSection img{
     width: 450px;
     display: block;
     position: relative;
-    top: -85px;
-    left: 55px;
+    top: -70px;
+    left: 50px;
     z-index: 1;
     transition: all 0.3s ease-in-out;
     animation: jump 1.2s infinite;
@@ -67,7 +99,6 @@ transform: translateX(6px);
 .HeroSection .border:hover{
        background-color: #86AA96;
 }
-
 
 
 @keyframes jump {
