@@ -11,7 +11,7 @@ function ImageCarousel() {
       <div className='carousel-list'>
         {list.map((item, index) => (
           <div className='list' key={index}>
-            <img src={item.image} alt="plants" />
+            <img src={item.image} alt="plants" className='carousel-image' />
           </div>
         ))}
       </div>

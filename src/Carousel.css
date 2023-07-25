@@ -1,6 +1,12 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .carousel .shapes{
   height: 110px;
-  width: 100vw;
+  width: 100%;
   background-color: #ffffff;
   border-radius: 50%; 
   position:relative;
@@ -8,29 +14,23 @@
   z-index: 1;
 }
 
-.carousel .bottom-shapes{
-   height: 110px;
-  width: 100vw;
-  background-color: #ffffff;
-  border-radius: 50%; 
-  position:relative;
-  top: -50px;
-  bottom: -50px;
-}
-
 .carousel-list{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  column-gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type:x mandatory;
+   scroll-behavior: smooth;
 }
 
 .carousel .list{
-  margin: 0 15px;
-  overflow: hidden;
+scroll-snap-align: center;
+min-width: 20%;
 }
 
-.carousel img{
-  width: 450px;
+.carousel-image{
+ width: 450px;
   height:400px;
+  object-fit: cover;
 }
+
