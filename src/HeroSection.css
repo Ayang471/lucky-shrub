@@ -13,17 +13,13 @@
     white-space: nowrap;
     margin: 4% auto;
     letter-spacing: 1px;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    animation: typing 3.5s steps(40, end);
   }
 
   @keyframes typing {
     from {width: 0} to {width: 100%}
   }
 
-  {/*@keyframes blink-caret{
-    from, to {border-color:transparent}
-    50%{border-color:white}
-  }*/}
 
 .HeroSection .texts p{
     font-size: 20px;
