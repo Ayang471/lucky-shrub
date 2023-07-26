@@ -38,18 +38,14 @@ background-image: radial-gradient(#86AA96, #bdd8c9, transparent);
     transform:scale(1.1);
 }
 
-@media screen and (max-width: 768px) {
-  .ExploreMoreSection {
-    flex-direction: column;
-    align-items: center;
-    margin: 8%;
-  }
+@media (max-width: 770px) {
 
-  .row {
-    flex-direction: column;
-    align-items: center;
-  }
-  
+.ExploreMoreSection h1{
+    font-size: 38px;
+    margin: 8%;
+}
+
+
 .ExploreMoreSection img{
    width: 50px;
 }

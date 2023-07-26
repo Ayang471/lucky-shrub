@@ -43,3 +43,29 @@
     transition: all 0.3s ease-in-out;
     animation: jump 1.2s infinite;
 }
+
+@media (max-width: 391px){
+.Banner{
+    margin: 0% 8%;
+    padding:50px;
+    border-radius: 20px;
+}
+
+.Banner .text{
+    text-align: center;
+}
+
+.Banner h1 i{
+    font-size: 26px;
+}
+
+
+.Banner h1 span{
+     font-size: 24px;
+}
+
+.plants img{
+    top: 50px;
+    left: 25px;
+}
+}

@@ -34,3 +34,26 @@ min-width: 20%;
   object-fit: cover;
 }
 
+@media (max-width: 391px) {
+  .carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel .shapes{
+  border-radius: 0%; 
+  top: 0px;
+}
+
+
+.carousel .list{
+min-width: 70%;
+}
+
+.carousel-image{
+ width: 450px;
+  object-fit: cover;
+}
+
+}
