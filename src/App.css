@@ -48,6 +48,13 @@ nav .container{
     letter-spacing:1px;
 }
 
+@media (max-width: 391px){
+   nav .container{
+    padding: 0 8%;
+}
+
+}
+
 
 @media(max-width: 991px) {
     .sidebar{
