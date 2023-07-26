@@ -34,7 +34,7 @@ min-width: 20%;
   object-fit: cover;
 }
 
-@media (max-width: 391px) {
+@media screen and (min-width: 390px) and (max-width:767px) {
   .carousel {
   width: 100%;
   overflow: hidden;
@@ -42,13 +42,37 @@ min-width: 20%;
 }
 
 .carousel .shapes{
-  border-radius: 0%; 
-  top: 0px;
+border-radius: 0%;
+top:0px;
 }
 
 
 .carousel .list{
 min-width: 70%;
+}
+
+.carousel-image{
+  object-fit: cover;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  .carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel .shapes{
+    border-radius: 50%; 
+  position:relative;
+  top: 50px;
+  z-index: 1;
+}
+
+.carousel .list{
+min-width: 45%;
 }
 
 .carousel-image{

@@ -64,10 +64,9 @@ background-color: rgb(134, 170, 150,0.9);
 }
 
 
-@media (max-width: 391px) {
+@media screen and (min-width: 390px) and (max-width:767px) {
   .plants-section{
     margin-top: 10%;
-
 }
 
 .plants-section .row {

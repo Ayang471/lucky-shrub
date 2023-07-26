@@ -38,7 +38,7 @@ background-image: radial-gradient(#86AA96, #bdd8c9, transparent);
     transform:scale(1.1);
 }
 
-@media (max-width: 770px) {
+@media screen and (min-width: 390px) and (max-width:767px)  {
 
 .ExploreMoreSection h1{
     font-size: 38px;
