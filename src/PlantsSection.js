@@ -11,14 +11,10 @@ function PlantsSection() {
             <div className='row' >
                 {plantList.map((products, index) => (
                     <div className='col' key={index}>
-                       <div>
                             <img src={products.image} alt='product' />
-                       </div>
-                    <div>
                         <p>{products.title}
                             <FontAwesomeIcon icon={faArrowRight} className='arrowRight' />
                          </p>
-                    </div>
                     </div>
                 ))}
             </div>

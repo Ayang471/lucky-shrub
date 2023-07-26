@@ -8,7 +8,7 @@ function HeroSection() {
     <div className='HeroSection'>
       <div classNamr='container'>
           <div className='texts'>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+            <h1>Lorem ipsum dolor.</h1>
             <p>
             Lorem ipsum dolor sit amet consectetur. Sit lacus et turpis porttitor facilisi lectus egestas nisl. Elementum aliquet eu et mauris vulputate nibh. Egestas odio aliquet sit aliquet in nec auctor.
             </p>
