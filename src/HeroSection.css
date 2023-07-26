@@ -56,11 +56,6 @@
 }
 
 
-{/*.HeroSection button:hover{
-    cursor: pointer;
-    background-color: #86AA96;
-}
-*/}
 .HeroSection .arrowRight{
     margin-left: 6px;
      transition: .3s ease-in;
